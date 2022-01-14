@@ -19,6 +19,5 @@ $(document).ready(function() {
      } else {
        $("#Python").show();
      }
-     event.preventDefault();
-  });
+  }); 
 });
