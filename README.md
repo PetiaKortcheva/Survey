@@ -23,7 +23,7 @@ _{This application allows users to find basic information about 3 Program Langua
 
 ## Known Bugs
 
-* The Questionnaire does not work
+* The Questionnaire does not work.
 
 ## License
 

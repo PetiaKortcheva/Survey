@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $("form#program-language-suggester").submit(function(event) {
     event.preventDefault();
-    let loveVideoGames = $("input#loveVideoGames").val();
-    let loveToDesign = $("input#loveToDsign").val();
-    let loveCoffee = $("input#loveCoffee").val();
-    let loveTea= $("input#loveTea").val();
-    let loveDogs = $("loveDogs").val();
+    let loveVideoGames = parseInt($("input#loveVideoGames").val());
+    let loveToDesign = parseInt($("input#loveToDsign").val());
+    let loveCoffee = parseInt($("input#loveCoffee").val());
+    let loveTea= parseInt($("input#loveTea").val());
+    let loveDogs = parseInt($("loveDogs").val());
     $("#C#").hide();
     $("#JavaScript").hide();
     $("#Python").hide();
