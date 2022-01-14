@@ -2,6 +2,10 @@ body {
   background-color:wheat;
 }
 
+img {
+  width: 30%;
+}
+
 #C {
   display: none;
 }
@@ -13,7 +17,6 @@ JavaScript {
 Python {
   display: none;
 }
-
-img {
-  width: 30%;
+#CJavaScriptPython {
+  display: none;
 }
