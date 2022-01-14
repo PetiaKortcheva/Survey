@@ -11,13 +11,19 @@ $(document).ready(function() {
     $("#Python").hide();
     console.log(loveVideoGames);
     console.log(loveToDesign);
+    console.log(loveCoffee);
+    console.log(loveTea);
+    console.log(loveDogs);
 
-    if (loveVideoGames === 'Yes' && loveDogs === Yes && loveCoffee === Yes) {
+
+    if (loveVideoGames === Yes && loveDogs === Yes && loveCoffee === Yes) {
       $("C#").show();
-     } else if (loveToDesign === 'Yes' && LoveTea === 'Yes') {
+     } else if (loveToDesign === Yes && LoveTea === Yes && loveDogs === Yes) {
        $("#JavaScript").show();
-     } else {
+     } else if (loveVideoGames === Yes && LoveTea === Yes && loveToDesign === Yes) {
        $("#Python").show();
+     } else {
+       $ ("C#JavaScriptPython").show();
      }
   }); 
 });
