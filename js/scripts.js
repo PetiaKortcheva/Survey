@@ -1,15 +1,16 @@
 $(document).ready(function() {
   $("form#program-language-suggester").submit(function(event) {
-    const loveVideoGames = confirm ("input#YesorNo").val();
-    const loveToDesign = confirm ("input#YesorNo").val();
-    const loveCoffee = confirm ("select#YesorNo").val();
-    const loveTea= confirm ("input#YesorNo").val();
-    const loveDogs = confirm ("select#YesorNo").val();
+    event.preventDefault();
+    let loveVideoGames = $("input#loveVideoGames").val();
+    let loveToDesign = $("input#loveToDsign").val();
+    let loveCoffee = $("input#loveCoffee").val();
+    let loveTea= $("input#loveTea").val();
+    let loveDogs = $("loveDogs").val();
     $("#C#").hide();
     $("#JavaScript").hide();
     $("#Python").hide();
-    console.log(age);
-    console.log(gender);
+    console.log(loveVideoGames);
+    console.log(loveToDesign);
 
     if (loveVideoGames === 'Yes' && loveDogs === Yes && loveCoffee === Yes) {
       $("C#").show();
